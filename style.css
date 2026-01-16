@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 53px;
+    background-color: #1f2937;
+    color: #f9fafb;
+    display: flex;    /** to make all in one line**/
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** Box 1**/
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-logo{
+    font-size:22px;
+    font-weight:700;
+    color:#f472b6;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+.border{
+    border:1.0px solid transparent;
+    height: 45px;
+}
+.border:hover{
+    border: 1.0px solid white;   /** when click to make a white border on it**/
+}
+
+/** Box 2**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+
+    height: 40px;
+    width: 45%;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #f472b6;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #1f2937;
+}
+.nav-search:hover{
+    border: 2px solid #ff9900;
+}
+/** Box 3**/
+
+
+.lang{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+/** Box 4**/
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700; 
+}
+/** Box 5**/
+.nav-cart i{
+    font-size: 28px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+ /** Box 6**/
+ .downloadnow i{
+    font-size: 28px;
+ }
+.downloadnow{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 8px;
+}
+/**panel**/
+.panel{
+    height: 40px;
+    background-color: #f9fafb;
+    display: flex;
+    color: #1f2937;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options a {
+    margin-left: 15px;
+}
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.panel-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**hero section**/
+.hero-section{
+    background-image: url("hero_image.jpeg");
+    background-size:contain;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-content{
+    background-color: white;
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 0.95rem;
+    width: 50%;
+    margin-bottom: 25px;
+}
+.hero-content a{
+    text-decoration: none;
+    color: #007185;
+}
+/**shop-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fdf2f8;
+}
+.card{
+    width: 312px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card h2{
+    font-size: 18.3px;
+    margin-bottom: 12px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.item{
+    width:calc(50% - 5px);
+}
+.item img{
+    width:100%;
+    height:100px;
+    object-fit: cover;
+}
+.item p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.card a{
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #007185;
+    text-decoration: none;
+}
+
+/**footer**/
+.foot-panel1{
+    background-color: #1f2937;
+    color: #f9fafb;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #fdf2f8;
+    color: #1f2937;
+    height: 300px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.foot-panel2 .footer-column{
+    margin-top: 50px;
+}
+.foot-panel2 .footer-column p{
+    font-weight: bold;
+}
+.foot-panel2 .footer-column a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #2b2b2b;
+    text-decoration: none;
+
+}
