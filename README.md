@@ -6,8 +6,8 @@ This project focuses on creating a clean, user-friendly shopping interface inspi
 ---
 
 ## 📸 Project Preview
-![Smarrtbuy Homepage Preview](screenshot_1.png)
-![Smarrtbuy Homepage Preview](screenshot_2.png)
+![Smarrtbuy Homepage Preview](Screenshot_1.png)
+![Smarrtbuy Homepage Preview](Screenshot_2.png)
 
 ---
 
